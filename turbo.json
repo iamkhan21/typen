@@ -5,6 +5,10 @@
 			"dependsOn": ["^build"],
 			"outputs": [".next/**"]
 		},
+		"backend#build": {
+			"dependsOn": ["^build"],
+			"outputs": [".next/**"]
+		},
 		"lint": {
 			"outputs": []
 		},
