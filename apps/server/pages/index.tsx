@@ -1,10 +1,7 @@
-import { Button } from "ui";
-
-export default function Web() {
-  return (
-    <div>
-      <h1>Web</h1>
-      <Button />
-    </div>
-  );
+export default function Main() {
+	return (
+		<article>
+			<h1>Welcome to Typen</h1>
+		</article>
+	);
 }

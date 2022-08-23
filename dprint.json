@@ -1,0 +1,14 @@
+{
+	"incremental": true,
+	"includes": ["**/*.{ts,tsx,js,jsx,cjs,mjs,json,svelte}"],
+	"excludes": ["**/node_modules", "**/.turbo", "**/.expo", "**/.next", "**/*-lock.json"],
+	"prettier": {
+		"useTabs": true,
+		"singleQuote": true,
+		"trailingComma": "none",
+		"printWidth": 100
+	},
+	"plugins": [
+		"https://plugins.dprint.dev/prettier-0.10.0.json@ca9a97de84cbb2cd60534eb72c0455f3ca8704743917569ace70499136cf5c9c"
+	]
+}
