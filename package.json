@@ -2,12 +2,15 @@
 	"name": "typen",
 	"version": "0.0.0",
 	"private": true,
-	"workspaces": ["apps/*", "packages/*"],
+	"workspaces": [
+		"apps/*",
+		"packages/*"
+	],
 	"scripts": {
 		"build": "turbo run build",
 		"dev": "turbo run dev --parallel",
 		"lint": "turbo run lint",
-		"format": "prettier --write \"**/*.{ts,tsx,md}\"",
+		"format": "dprint fmt",
 		"update:deps": "pnpm up -r -i -L && pnpm i",
 		"postinstall": "npx simple-git-hooks"
 	},
@@ -22,7 +25,10 @@
 		"pre-commit": "npx nano-staged"
 	},
 	"nano-staged": {
-		"*": ["dprint fmt", "dprint check"]
+		"*": [
+			"dprint fmt",
+			"dprint check"
+		]
 	},
 	"engines": {
 		"pnpm": ">=7.0.0",

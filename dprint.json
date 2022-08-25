@@ -1,7 +1,14 @@
 {
 	"incremental": true,
 	"includes": ["**/*.{ts,tsx,js,jsx,cjs,mjs,json,svelte}"],
-	"excludes": ["**/node_modules", "**/.turbo", "**/.expo", "**/.next", "**/*-lock.json"],
+	"excludes": [
+		"**/node_modules",
+		"**/.turbo",
+		"**/.expo",
+		"**/.next",
+		"**/*-lock.json",
+		"**/*-lock.yaml"
+	],
 	"prettier": {
 		"useTabs": true,
 		"singleQuote": true,
