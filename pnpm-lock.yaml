@@ -1929,7 +1929,7 @@ packages:
     dependencies:
       '@types/istanbul-lib-coverage': 2.0.4
       '@types/istanbul-reports': 3.0.1
-      '@types/node': 17.0.45
+      '@types/node': 18.7.13
       '@types/yargs': 16.0.4
       chalk: 4.1.2
     dev: false
@@ -2464,7 +2464,7 @@ packages:
   /@types/graceful-fs/4.1.5:
     resolution: {integrity: sha512-anKkLmZZ+xm4p8JWBf4hElkM4XR+EZeA2M9BAkkTldmcyDY4mbdIJnRghDJH3Ov5ooY7/UAoENtmdMSkaAd7Cw==}
     dependencies:
-      '@types/node': 17.0.45
+      '@types/node': 18.7.13
     dev: false
 
   /@types/invariant/2.2.35:
@@ -2497,7 +2497,6 @@ packages:
 
   /@types/node/18.7.13:
     resolution: {integrity: sha512-46yIhxSe5xEaJZXWdIBP7GU4HDTG8/eo0qd9atdiL+lFpA03y8KS+lkTN834TWJj5767GbWv4n/P6efyTFt1Dw==}
-    dev: true
 
   /@types/prop-types/15.7.5:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
@@ -2969,7 +2968,7 @@ packages:
       '@babel/plugin-transform-block-scoping': 7.18.9_@babel+core@7.18.13
       '@babel/plugin-transform-classes': 7.18.9_@babel+core@7.18.13
       '@babel/plugin-transform-computed-properties': 7.18.9_@babel+core@7.18.13
-      '@babel/plugin-transform-destructuring': 7.18.9_@babel+core@7.18.13
+      '@babel/plugin-transform-destructuring': 7.18.13_@babel+core@7.18.13
       '@babel/plugin-transform-flow-strip-types': 7.18.9_@babel+core@7.18.13
       '@babel/plugin-transform-for-of': 7.18.8_@babel+core@7.18.13
       '@babel/plugin-transform-function-name': 7.18.9_@babel+core@7.18.13
@@ -5337,7 +5336,7 @@ packages:
     dependencies:
       '@jest/types': 27.5.1
       '@types/graceful-fs': 4.1.5
-      '@types/node': 17.0.45
+      '@types/node': 18.7.13
       anymatch: 3.1.2
       fb-watchman: 2.0.1
       graceful-fs: 4.2.10
@@ -5360,7 +5359,7 @@ packages:
     resolution: {integrity: sha512-jZCyo6iIxO1aqUxpuBlwTDMkzOAJS4a3eYz3YzgxxVQFwLeSA7Jfq5cbqCY+JLvTDrWirgusI/0KwxKMgrdf7w==}
     engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
     dependencies:
-      '@types/node': 17.0.45
+      '@types/node': 18.7.13
       graceful-fs: 4.2.10
     dev: false
 
@@ -5369,7 +5368,7 @@ packages:
     engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
     dependencies:
       '@jest/types': 27.5.1
-      '@types/node': 17.0.45
+      '@types/node': 18.7.13
       chalk: 4.1.2
       ci-info: 3.3.2
       graceful-fs: 4.2.10
@@ -5392,7 +5391,7 @@ packages:
     resolution: {integrity: sha512-7vuh85V5cdDofPyxn58nrPjBktZo0u9x1g8WtjQol+jZDaE+fhN+cIvTj11GndBnMnyfrUOG1sZQxCdjKh+DKg==}
     engines: {node: '>= 10.13.0'}
     dependencies:
-      '@types/node': 17.0.45
+      '@types/node': 18.7.13
       merge-stream: 2.0.0
       supports-color: 8.1.1
     dev: false
@@ -5452,7 +5451,7 @@ packages:
       '@babel/preset-env': ^7.1.6
     dependencies:
       '@babel/core': 7.18.13
-      '@babel/parser': 7.18.11
+      '@babel/parser': 7.18.13
       '@babel/plugin-proposal-class-properties': 7.18.6_@babel+core@7.18.13
       '@babel/plugin-proposal-nullish-coalescing-operator': 7.18.6_@babel+core@7.18.13
       '@babel/plugin-proposal-optional-chaining': 7.18.9_@babel+core@7.18.13
@@ -5924,8 +5923,8 @@ packages:
   /metro-source-map/0.70.3:
     resolution: {integrity: sha512-zsYtZGrwRbbGEFHtmMqqeCH9K9aTGNVPsurMOWCUeQA3VGyVGXPGtLMC+CdAM9jLpUyg6jw2xh0esxi+tYH7Uw==}
     dependencies:
-      '@babel/traverse': 7.18.11
-      '@babel/types': 7.18.10
+      '@babel/traverse': 7.18.13
+      '@babel/types': 7.18.13
       invariant: 2.2.4
       metro-symbolicate: 0.70.3
       nullthrows: 1.1.1
@@ -5955,9 +5954,9 @@ packages:
     resolution: {integrity: sha512-dQRIJoTkWZN2IVS2KzgS1hs7ZdHDX3fS3esfifPkqFAEwHiLctCf0EsPgIknp0AjMLvmGWfSLJigdRB/dc0ASw==}
     dependencies:
       '@babel/core': 7.18.13
-      '@babel/generator': 7.18.12
+      '@babel/generator': 7.18.13
       '@babel/template': 7.18.10
-      '@babel/traverse': 7.18.11
+      '@babel/traverse': 7.18.13
       nullthrows: 1.1.1
     transitivePeerDependencies:
       - supports-color
@@ -5967,9 +5966,9 @@ packages:
     resolution: {integrity: sha512-MtVVsnHhhBOp9GRLCdAb2mD1dTCsIzT4+m34KMRdBDCEbDIb90YafT5prpU8qbj5uKd0o2FOQdrJ5iy5zQilHw==}
     dependencies:
       '@babel/core': 7.18.13
-      '@babel/generator': 7.18.12
-      '@babel/parser': 7.18.11
-      '@babel/types': 7.18.10
+      '@babel/generator': 7.18.13
+      '@babel/parser': 7.18.13
+      '@babel/types': 7.18.13
       babel-preset-fbjs: 3.4.0_@babel+core@7.18.13
       metro: 0.70.3
       metro-babel-transformer: 0.70.3
@@ -5992,11 +5991,11 @@ packages:
     dependencies:
       '@babel/code-frame': 7.18.6
       '@babel/core': 7.18.13
-      '@babel/generator': 7.18.12
-      '@babel/parser': 7.18.11
+      '@babel/generator': 7.18.13
+      '@babel/parser': 7.18.13
       '@babel/template': 7.18.10
-      '@babel/traverse': 7.18.11
-      '@babel/types': 7.18.10
+      '@babel/traverse': 7.18.13
+      '@babel/types': 7.18.13
       absolute-path: 0.0.0
       accepts: 1.3.8
       async: 3.2.4
@@ -6937,10 +6936,14 @@ packages:
     resolution: {integrity: sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==}
     dev: false
 
-  /react-native-codegen/0.69.1_@babel+preset-env@7.18.10:
-    resolution: {integrity: sha512-TOZEqBarczcyYN3iZE3VpKkooOevaAzBq9n7lU0h9mQUvtRhLVyolc+a5K6cWI0e4v4K69I0MqzjPcPeFKo32Q==}
+  /react-is/18.2.0:
+    resolution: {integrity: sha512-xWGDIW6x921xtzPkhiULtthJHoJvBbF3q26fzloPCK0hsvxtPVelvftw3zjbHWSkR2km9Z+4uxbDDK/6Zw9B8w==}
+    dev: false
+
+  /react-native-codegen/0.69.2_@babel+preset-env@7.18.10:
+    resolution: {integrity: sha512-yPcgMHD4mqLbckqnWjFBaxomDnBREfRjDi2G/WxNyPBQLD+PXUEmZTkDx6QoOXN+Bl2SkpnNOSsLE2+/RUHoPw==}
     dependencies:
-      '@babel/parser': 7.18.11
+      '@babel/parser': 7.18.13
       flow-parser: 0.121.0
       jscodeshift: 0.13.1_@babel+preset-env@7.18.10
       nullthrows: 1.1.1
@@ -7028,7 +7031,7 @@ packages:
       promise: 8.1.0
       react: 18.0.0
       react-devtools-core: 4.24.0
-      react-native-codegen: 0.69.1_@babel+preset-env@7.18.10
+      react-native-codegen: 0.69.2_@babel+preset-env@7.18.10
       react-native-gradle-plugin: 0.0.7
       react-refresh: 0.4.3
       react-shallow-renderer: 16.15.0_react@18.0.0
@@ -7078,7 +7081,7 @@ packages:
     dependencies:
       object-assign: 4.1.1
       react: 18.0.0
-      react-is: 16.13.1
+      react-is: 18.2.0
     dev: false
 
   /react/18.0.0:

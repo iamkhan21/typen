@@ -9,6 +9,8 @@
 	"scripts": {
 		"build": "turbo run build",
 		"dev": "turbo run dev --parallel",
+		"dev:mobile": "turbo run dev --filter=mobile",
+		"dev:backend": "turbo run dev --filter=backend",
 		"lint": "turbo run lint",
 		"format": "dprint fmt",
 		"update:deps": "pnpm up -r -i -L && pnpm i",
